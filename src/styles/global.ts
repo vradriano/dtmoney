@@ -60,8 +60,9 @@ export const GlobalStyle = createGlobalStyle`
     bottom: 0;
     right: 0;
     left: 0;
-
+    
     display: flex;
+    align-items: center;
     justify-content: center;
   }
 
@@ -72,6 +73,20 @@ export const GlobalStyle = createGlobalStyle`
     padding: 3rem;
     position: relative;
     border-radius: 0.25rem;
+  }
+
+  .react-modal-close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    border: 0;
+    background: transparent;
+   
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.7);
+    }
   }
 
 `
