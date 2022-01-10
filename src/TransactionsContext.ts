@@ -1,4 +1,6 @@
 import { createContext } from 'react'
 
 
-const TransactionsContext = createContext([]);
+export const TransactionsContext = createContext([]);
+
+
