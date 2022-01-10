@@ -90,7 +90,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
           onChange={event => setCategory(event.target.value)}
         />
 
-        <button type="submit">
+        <button type="submit" onClick={onRequestClose}>
           Cadastrar
         </button>
 
