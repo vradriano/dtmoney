@@ -12,6 +12,8 @@ Dtmoney é um web/app de controle de transações financeiras, onde é possível
 ## Tecnologias / Bibliotecas
 - [React / ContextApi](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [MirageJS](https://miragejs.com/)
+
 
 
 ## Layout
